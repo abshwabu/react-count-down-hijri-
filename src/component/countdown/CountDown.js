@@ -1,6 +1,6 @@
 import moment from 'moment-hijri';
 import { useState, useEffect } from 'react';
-
+import css from './CountDown.module.css'
 const CountDown = ({ date }) => {
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
@@ -33,10 +33,10 @@ const CountDown = ({ date }) => {
   }, [date]);
 
   return (
-    <>
+    <div className={css.countdown}>
     <p>Time remaining to reach the date:</p>
     <p>{timeLeft.days} days {timeLeft.hours} hours {timeLeft.minutes} minutes {timeLeft.seconds} seconds</p>
-    </>
+    </div>
   );
 };
 
