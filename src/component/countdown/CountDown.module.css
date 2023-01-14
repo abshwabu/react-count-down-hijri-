@@ -5,6 +5,10 @@
 }
 .countdown p{
     text-transform: capitalize;
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-weight: 500;
+}
+.title{
+    font-weight: normal;
+    font-size: 2rem !important;
 }

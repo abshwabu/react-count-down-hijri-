@@ -34,7 +34,7 @@ const CountDown = ({ date }) => {
 
   return (
     <div className={css.countdown}>
-    <p>Time remaining to reach the date:</p>
+    <p className={css.title}>Time remaining to reach {date}H ramedan:</p>
     <p>{timeLeft.days} days {timeLeft.hours} hours {timeLeft.minutes} minutes {timeLeft.seconds} seconds</p>
     </div>
   );
