@@ -1,0 +1,14 @@
+.Footer{
+    text-align: center;
+
+}
+.Footer h1{
+    text-transform: capitalize;
+    font-weight: normal;
+    font-size: 2rem;
+
+}
+.Footer p{
+    font-weight: 200;
+    
+}
