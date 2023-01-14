@@ -1,0 +1,10 @@
+.countdown{
+    text-align: center;
+    margin-top: 1rem;
+    padding: 2rem;
+}
+.countdown p{
+    text-transform: capitalize;
+    font-size: 4rem;
+    font-weight: 500;
+}

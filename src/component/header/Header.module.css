@@ -1,0 +1,15 @@
+.container{
+    text-align: center;
+    font-weight: bold;
+
+}
+.container h1{
+    text-transform: uppercase;
+    font-size: 4rem;
+    margin: auto;
+}
+.container p{
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 200;
+}
